@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train = /content/Mask_Detector/Configuration_files/train_data.txt
+valid = /content/Mask_Detector/Configuration_files/val_data.txt
+test = /content/Mask_Detector/Configuration_files/test_data.txt
+# number of classes
+classes = 3
+# class names
+names = /content/Mask_Detector/Configuration_files/obj.names
+# backup path
+backup = /content/Mask_Detector/Weights/backup
